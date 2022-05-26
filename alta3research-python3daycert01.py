@@ -2,7 +2,7 @@
 
 """This is a simple script to convert Celsius to Fahrenheit, and vice versa"""
 
-def convert_temp(unit=None, source_temp=None):
+def convert_temp(unit, source_temp):
 
     # this allows the input to be either F or f
     if (unit== "F") or (unit== "f"):
