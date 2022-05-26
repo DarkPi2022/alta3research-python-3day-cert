@@ -23,5 +23,5 @@ unit=input("Select (F) or (C): ")
 source_temp = float(input("What is the temperature: "))
 u, t = convert_temp(unit, source_temp)
 
-# prints the converted output
+# prints the converted output with capitalized unit and rounded to one decimal point
 print(source_temp, "degrees", unit.title(), "is", round(t, 1), "degrees", u)
